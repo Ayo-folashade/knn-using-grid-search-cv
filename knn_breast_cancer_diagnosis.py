@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import GridSearchCV
 
 # Load the dataset
-df = pd.read_csv('/kaggle/input/breast-cancer-wisconsin-data/data.csv')
+df = pd.read_csv('breast-cancer-wisconsin-data/data.csv')
 
 # Data Preprocessing
 # Remove the 'Unnamed: 32' and 'id' columns from the DataFrame
